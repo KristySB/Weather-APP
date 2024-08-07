@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.entire-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: fit-content; */
+    width: 350px;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px 60px;
+    /* margin-top: 20px; */
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+
+.input-text {
+    border: 1px solid rgb(216, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    width: 230px;
+    background-color: rgb(216, 255, 255);
+    text-align: center;
+    color: rgb(69, 69, 69);
+}
+
+.submit-btn {
+    border: 1px solid rgb(216, 255, 255);
+    border-radius: 100px;
+    padding: 10px 12px;
+    background-color: rgb(216, 255, 255);
+    text-align: center;
+    cursor: pointer;
+}
+
+#icon {
+    color: rgb(69, 69, 69);
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.degrees{
+    text-align: center;
+    font-family: 'Poppins', 'Noto Sans', sans-serif;
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: -20px;
+}
+
+.city-name {
+    text-align: center;
+    font-family: 'Poppins', 'Noto Sans', sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-top: -40px;
+}
+ .country-name {
+    text-align: center;
+    font-family: 'Poppins', 'Noto Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: -40px;
+ }
+
+.wind-humidity {
+    display: flex;
+    gap: 50px;
+    font-family: 'Poppins', 'Noto Sans', sans-serif;
+    color: white;
+}
+
+.wind-div {
+    display: flex;
+}
+
+.humidity-div {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.img-humidity, .img-wind {
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
+}
+
+.img-wind {
+    margin-right: 5px;
+}
+
+.error {
+    text-align: center;
+    font-family: 'Poppins', 'Noto Sans', sans-serif;
+    color: white;
+    font-weight: 200;
+    display: none;
+}

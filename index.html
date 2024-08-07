@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Wheather</title>
+</head>
+<body>
+
+    <div class="entire-app">
+        <form class="find-city-form">
+            <input type="text" class="input-text" placeholder="Enter city name" name="textInput">
+            <button type="submit" class="submit-btn"><i class="fas fa-magnifying-glass" id="icon"></i></button>
+        </form>
+
+        <p class="error">The city was not found.<br>Try again</p>
+        
+        <img class="weather-img">
+
+        <div class="weather">
+            <p class="degrees"></p>
+            <p class="city-name">Gallarate</p>
+            <p class="country-name">IT</p>
+        </div>
+
+        <div class="wind-humidity">
+            <div class="wind-div">
+                <img class="img-wind" src="wind2.svg">
+                <p class="wind"></p>
+            </div>
+
+            <div class="humidity-div">
+                <img class="img-humidity" src="humidity3.svg">
+                <p class="humidity"></p>
+            </div>
+        </div>
+
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
